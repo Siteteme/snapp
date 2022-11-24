@@ -1,0 +1,11 @@
+/*image-food*/
+#image-food .image-food {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#image-food .image-food img {
+  max-width: 90%;
+  margin: 72px 0;
+  border-radius: 8px;
+}/*# sourceMappingURL=image-food.css.map */

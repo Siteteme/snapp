@@ -1,0 +1,21 @@
+/* download-app */
+
+#download-app {
+    height: 163px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.download-app {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 76px;
+}
+
+.download-app a img {
+    width: 100%;
+}

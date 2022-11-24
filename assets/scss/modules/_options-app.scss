@@ -1,0 +1,36 @@
+/*options-app*/
+#options-app{
+  
+    width: 70%;
+    margin: 0 auto;
+    margin-top:-50px;
+    height: 400px;
+}
+.options-app-items{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 48px;
+    .options-app-item{
+       .options-app-item-img{
+        background: #F2F5F8;
+        border-radius: 18px!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+       }
+       .ptions-app-item-desc{
+        margin-top:15px;
+        h3{
+            font-size: 17px;
+            margin-bottom:15px;
+        }
+        p{
+            font-size: 12px;
+            font-weight:300;
+            color: #59584C;
+        }
+       }
+    }
+}

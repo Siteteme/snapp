@@ -1,0 +1,33 @@
+/*super-app*/
+
+#super-app{
+    width: 100%;
+    .super-app{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .super-app-img{
+            width: 225%;
+            img{
+                max-width: 100%;
+                object-fit: fill;
+            }
+        }
+        .super-app-desc{
+            align-self: flex-start;
+            padding: 55px;
+           
+            h2{
+                font-size:22px;
+                margin-bottom: 29px;
+            }
+            p{
+                font-size:14px;
+                // text-align: justify;
+                font-weight: 100;
+                padding-left: 95px;
+                
+            }
+        }
+    }
+}

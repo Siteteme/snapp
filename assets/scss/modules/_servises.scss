@@ -1,0 +1,52 @@
+/*servises*/
+
+#servises{
+    background-color: #F2F5F8;
+    .title-servises{
+        text-align: center;
+        font-size:24px;
+        padding: 40px 0;
+        margin-bottom: 15px;
+        color:#404040;
+
+    }
+    
+.servises-items{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 32px;
+        width: 1000px;
+        margin: 0 auto;
+        padding-bottom: 56px ;
+        .servises-item{
+        background-color: #fff;
+        padding: 10px;
+        border-radius:18px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        width: 313px;
+        .servises-item-logo{
+            img{
+                max-width: 62px;
+            }
+        }
+        .servises-item-desc{
+            margin-right: 8px;
+            h3{
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+            p{
+                font-size:14px;
+                color: #a3a3a3;
+                font-weight: 100;
+            }
+        }
+        }
+        .servises-item.center{
+            grid-column-start: 2;
+        }
+    }
+}

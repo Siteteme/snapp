@@ -1,0 +1,123 @@
+
+/* intro */
+
+
+#intro {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 594px;
+    padding-top: 94px;
+    .left{
+        width: 50%;
+        background: #21AA58;
+        padding: 54px 85px 0px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: right;
+        padding-right: 104px;
+        h1{
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 20px;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: 200;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+    }
+}
+
+
+
+
+
+#intro .left .intro-left-form {
+    position: relative;
+    margin-bottom: 44px;
+    width: 420px;
+}
+
+#intro .left .intro-left-form input[type="text"] {
+    background: transparent;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 250px;
+    padding-bottom: 8px;
+    color: #BAE5CB;
+
+}
+
+#intro .left .intro-left-form input[type="text"]::placeholder {
+    color: #BAE5CB;
+    padding-bottom: 5px;
+}
+
+#intro .left .intro-left-form input[type="submit"] {
+    background: #fff;
+    color: var(--colorPrimary);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 39px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:$colorPrimary;
+    cursor: pointer;
+    &:hover{
+        background-color:rgba(255, 255, 255, 0.966);
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+#intro .left .intro-left-form .circle {
+    width: 9px;
+    height: 9px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    left: 166px;
+    top: 3px;
+}
+
+#intro .left .btn-snapp-login {
+    width: 256px;
+    height: 47px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: -20px;
+    &:hover{
+        background: rgba(255, 255, 255, 0.062)
+    }
+}
+
+
+#intro .right {
+    width: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
